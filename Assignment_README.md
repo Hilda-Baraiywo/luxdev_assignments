@@ -47,11 +47,3 @@ pip install jupyterlab pandas numpy matplotlib seaborn notebook sqlalchemy
 jupyter lab
 ```
 Open [CH05_PROJECT_DA-DS/online_retail.ipynb](CH05_PROJECT_DA-DS/online_retail.ipynb) and run all cells. This will regenerate the files under [CH05_PROJECT_DA-DS/outputs](CH05_PROJECT_DA-DS/outputs).
-
-Notes about the SQL file
-- The file [CH05_PROJECT_DA-DS/sql/online_retail.sql](CH05_PROJECT_DA-DS/sql/online_retail.sql) contains SQL queries used for extraction/aggregation (adapt for the SQL engine in use). Use a compatible SQL engine to run these queries against an imported raw dataset if you prefer SQL-based ETL.
-
-Recommended next steps
-- Add a requirements.txt or environment.yml for reproducible installs.
-- Add unit tests / small validation scripts that confirm expected shapes/aggregates of CSV outputs.
-- Convert notebook cells that perform data processing into Python modules for reuse in pipelines.
